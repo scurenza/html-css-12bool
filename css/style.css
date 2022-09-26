@@ -1,0 +1,20 @@
+/* DEBUG */
+.wrapper{
+    /* border: 2px solid white; */
+    max-width: 100%;
+}
+
+[class*="col-"]{
+    background-color: lightblue;
+    border: 2px solid white;
+    height: 80px;
+    text-align: center;
+}
+
+.green{
+    background-color: limegreen;
+    border: 2px solid lightblue;
+    height: 30px;
+    margin-top: 20px;
+}
+
