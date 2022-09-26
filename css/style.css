@@ -11,6 +11,13 @@
     text-align: center;
 }
 
+[class*="offset"]{
+    background-color: lightblue;
+    border: 0;
+    height: 80px;
+    text-align: center;
+}
+
 .green{
     background-color: limegreen;
     border: 2px solid lightblue;
@@ -18,8 +25,19 @@
 }
 
 .flex{
+    height: 80px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    padding: 0 .3em;
+}
+
+*{
+    color: white;
+}
+
+.mb2{
+    margin-bottom: 2em;
 }
 
