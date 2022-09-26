@@ -1,0 +1,47 @@
+.wrapper{
+    max-width: 100%;
+}
+
+:root{
+    --bg-black: #000000;
+    --bg-yellow: #f6fd00;
+    --bg-blue: #2902df;
+    --bg-white: white;
+    --bg-red: #fd0102;
+}
+
+.yellow{
+    background-color: var(--bg-yellow);
+}
+
+.red{
+    background-color: var(--bg-red);
+}
+
+.white{
+    background-color: var(--bg-white);
+}
+
+.blue{
+    background-color: var(--bg-blue);
+}
+
+.border{
+    border: 1px solid green;
+}
+
+body{
+    background-color: var(--bg-black);
+}
+
+.big {
+    height: 700px;
+}
+
+.small{
+    height: 50px;
+}
+
+.mini{
+    height: 50px;
+}
